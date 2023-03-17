@@ -1,23 +1,5 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<style type="text/css">
-			ul {
-				/*正方形*/
-				/*list-style:sqware;*/
-				/*数字*/
-				list-style: decimal;
-			}
-			ol {
-				/*空心圆*/
-				/*list-style:circle;*/
-				/*小圆点*/
-				list-style: disc;
-			}
-		</style>
-	</head>
 	<body>
 		<p>无序列表</p>
 		<!-- 有序列表 （使用的频率高） -->
