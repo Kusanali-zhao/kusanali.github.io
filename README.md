@@ -1,20 +1,8 @@
 <html>
 <body>
-<h1>美容院1</h1>
-<p>1391847209999</p>
- <h1>美容院1</h1>
-<p>1391847209999</p>
- <h1>美容院1</h1>
-<p>1391847209999</p>
- <h1>美容院1</h1>
-<p>1391847209999</p>
-  <h1>美容院1</h1>
-<p>1391847209999</p>
- <h1>美容院1</h1>
-<p>1391847209999</p>
- <h1>美容院1</h1>
-<p>1391847209999</p>
- <h1>美容院1</h1>
-<p>1391847209999</p>
+<div id="lm_dynmap">
+                                <div id="v8Map" class="mv_desktop" data-priority="2">
+                                    <div id="dynamicMap_13" class="dynMap" style="width:648px;height:200px;z-index:1" data-tag="common.MapControl">
+                                        <div class="bm_results_overlay" data-resultsOverlay="{&quot;query&quot;:&quot;美容院&quot;,&quot;mapBounds&quot;:[31.234373092651367,121.45736694335938,31.217384338378906,121.48013305664062],&quot;primerPois&quot;:[{&quot;geometry&quot;:{&quot;x&quot;:121.48013305664062,&quot;y&quot;:31.227123260498047},&quot;entity&quot;:{&quot;title&quot;:&quot;现代美容中心(上海亚龙店)&quot;,&quot;id&quot;:&quot;YN4067x28293946&quot;}},{&quot;geometry&quot;:{&quot;x&quot;:121.4642105102539,&quot;y&quot;:31.217384338378906},&quot;entity&quot;:{&quot;title&quot;:&quot;白玉兰美容院&quot;,&quot;id&quot;:&quot;YN4067x18610022&quot;}},{&quot;geometry&quot;:{&quot;x&quot;:121.478271484375,&quot;y&quot;:31.233596801757812},&quot;entity&quot;:{&quot;title&quot;:&quot;诗雨美容院&quot;,&quot;id&quot;:&quot;YN4067x26345253&quot;}},{&quot;geometry&quot;:{&quot;x&quot;:121.45758056640625,&quot;y&quot;:31.230247497558594},&quot;entity&quot;:{&quot;title&quot;:&quot;克丽缇娜NO.22795&quot;,&quot;id&quot;:&quot;YN4067x27313560&quot;}},{&quot;geometry&quot;:{&quot;x&quot;:121.45736694335938,&quot;y&quot;:31.234373092651367},&quot;entity&quot;:{&quot;title&quot;:&quot;克丽缇娜(泰兴路店)&quot;,&quot;id&quot;:&quot;YN4067x16057677&quot;}}],&quot;disableComputingMapViewForLoadingOnly&quot;:true,&quot;useBfpr&quot;:true,&quot;searchQueryCategory&quot;:&quot;Local&quot;,&quot;isCategoryQuery&quot;:true,&quot;rootKeyword&quot;:&quot;美容 院&quot;,&quot;extraFuiAugmentations&quot;:&quot;entitylisttype:\&quot;Local\&quot;&quot;,&quot;segmentType&quot;:&quot;Local&quot;}" data-groupIndex="">
 </body>
 </html>
