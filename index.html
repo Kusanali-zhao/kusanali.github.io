@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kusanali 的 GitHub Pages 练习页">
+  <title>Kusanali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&family=Noto+Serif+SC:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1c1a;
+      --surface: #16302b;
+      --ink: #e8f2ef;
+      --muted: #9bb5ae;
+      --accent: #3ecf8e;
+      --line: rgba(232, 242, 239, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      font-family: "Noto Sans SC", sans-serif;
+      background:
+        radial-gradient(ellipse 80% 50% at 10% -10%, rgba(62, 207, 142, 0.22), transparent 55%),
+        radial-gradient(ellipse 60% 40% at 100% 0%, rgba(86, 160, 140, 0.18), transparent 50%),
+        var(--bg);
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(720px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 4rem 0 5rem;
+    }
+
+    .brand {
+      font-family: "Noto Serif SC", serif;
+      font-size: clamp(2.4rem, 8vw, 3.6rem);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      margin: 0 0 0.4rem;
+      animation: rise 0.7s ease both;
+    }
+
+    .lead {
+      color: var(--muted);
+      margin: 0 0 2.5rem;
+      max-width: 36em;
+      animation: rise 0.7s ease 0.08s both;
+    }
+
+    .lead a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(62, 207, 142, 0.4);
+    }
+
+    section {
+      background: color-mix(in srgb, var(--surface) 88%, transparent);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 1.25rem 1.4rem 1.4rem;
+      margin-bottom: 1rem;
+      backdrop-filter: blur(8px);
+      animation: rise 0.7s ease both;
+    }
+
+    section:nth-of-type(1) { animation-delay: 0.14s; }
+    section:nth-of-type(2) { animation-delay: 0.22s; }
+    section:nth-of-type(3) { animation-delay: 0.3s; }
+
+    h2 {
+      margin: 0 0 0.75rem;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+
+    li + li { margin-top: 0.2rem; }
+
+    dl {
+      margin: 0;
+      display: grid;
+      gap: 0.85rem;
+    }
+
+    dt {
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+
+    dd {
+      margin: 0 0 0.15rem 0.9rem;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 2rem;
+      color: var(--muted);
+      font-size: 0.875rem;
+      animation: rise 0.7s ease 0.38s both;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 class="brand">Kusanali</h1>
+    <p class="lead">
+      GitHub Pages 练习页。若根域名打不开，请先用项目地址：
+      <a href="https://kusanali-zhao.github.io/kusanali.github.io/">kusanali-zhao.github.io/kusanali.github.io</a>
+    </p>
+
+    <section>
+      <h2>无序列表</h2>
+      <ul>
+        <li>比熊</li>
+        <li>柯基</li>
+        <li>迷你雪纳瑞</li>
+        <li>边牧</li>
+        <li>哈士奇</li>
+        <li>柴犬</li>
+        <li>金毛</li>
+        <li>阿拉斯加</li>
+        <li>苏格兰牧羊犬</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>有序列表</h2>
+      <ol>
+        <li>苏格兰折耳猫</li>
+        <li>英国短毛猫</li>
+        <li>美国短毛猫</li>
+        <li>波斯猫</li>
+        <li>加菲猫</li>
+        <li>斯芬克斯猫</li>
+        <li>布偶猫</li>
+        <li>暹罗猫</li>
+        <li>狸花猫</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>自定义列表</h2>
+      <dl>
+        <div>
+          <dt>周杰伦</dt>
+          <dd>东风破</dd>
+          <dd>霍元甲</dd>
+          <dd>七里香</dd>
+          <dd>明明就</dd>
+        </div>
+        <div>
+          <dt>林俊杰</dt>
+          <dd>江南</dd>
+          <dd>一千年以后</dd>
+          <dd>醉赤壁</dd>
+          <dd>交换余生</dd>
+        </div>
+        <div>
+          <dt>邓紫棋</dt>
+          <dd>画</dd>
+          <dd>泡沫</dd>
+          <dd>喜欢你</dd>
+          <dd>光年之外</dd>
+        </div>
+      </dl>
+    </section>
+
+    <footer>静态页入口：仓库根目录 <code>index.html</code></footer>
+  </main>
+</body>
+</html>
