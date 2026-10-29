@@ -1,52 +1,28 @@
-<!DOCTYPE html>
-<html>
-	<body>
-		<p>无序列表</p>
-		<!-- 有序列表 （使用的频率高） -->
-		<ul>
-			<li>比熊</li>
-			<li>柯基</li>
-			<li>迷你雪纳瑞</li>
-			<li>边牧</li>
-			<li>哈士奇</li>
-			<li>柴犬</li>
-			<li>金毛</li>
-			<li>阿拉斯加</li>
-			<li>苏格兰牧羊犬</li>
-		</ul>
-		<p>有序列表</p>
-		<!-- 有序列表 -->
-		<ol>
-			<li>苏格兰折耳猫</li>
-			<li>英国短毛猫</li>
-			<li>美国短毛猫</li>
-			<li>波斯猫</li>
-			<li>加菲猫</li>
-			<li>斯芬克斯猫</li>
-			<li>布偶猫</li>
-			<li>暹(xian)罗猫</li>
-			<li>狸花猫</li>
-		</ol>
-		<p>自定义列表</p>
-		<!-- 自定义列表 -->
-		<dl>
-			<!-- 项目 -->
-			<dt>周杰伦</dt>
-			<!-- 项目描述 -->
-			<dd>东风破</dd>
-			<dd>霍元甲</dd>
-			<dd>七里香</dd>
-			<dd>明明就</dd>
-			<dt>林俊杰</dt>
-			<dd>江南</dd>
-			<dd>一千年以后</dd>
-			<dd>醉赤壁</dd>
-			<dd>交换余生</dd>
-			<dt>邓紫棋</dt>
-			<dd>画</dd>
-			<dd>泡沫</dd>
-			<dd>喜欢你</dd>
-			<dd>光年之外</dd>
-		</dl>
-	</body>
-</html>
+# kusanali.github.io
+
+GitHub Pages 静态站点。
+
+## 为什么 `https://kusanali-zhao.github.io/` 打不开？
+
+GitHub 用户名是 **`Kusanali-zhao`**，当前仓库名是 **`kusanali.github.io`**（少了 `-zhao`）。
+
+| 类型 | 仓库名要求 | 访问地址 |
+|------|------------|----------|
+| 用户站点 | 必须叫 `kusanali-zhao.github.io` | `https://kusanali-zhao.github.io/` |
+| 项目站点（当前） | 任意名，如现在的 `kusanali.github.io` | `https://kusanali-zhao.github.io/kusanali.github.io/` |
+
+所以根域名会 **404**；**能打开的地址**是：
+
+**https://kusanali-zhao.github.io/kusanali.github.io/**
+
+## 想用根域名怎么改？
+
+1. 打开仓库 Settings → General → Repository name  
+2. 改名为 **`kusanali-zhao.github.io`**（按 GitHub 规则用小写用户名）  
+3. 等 Pages 重新部署后访问：https://kusanali-zhao.github.io/
+
+## 本次修复
+
+- 增加根目录 `index.html` 作为正式首页（以前只有内嵌 HTML 的 `README.md`）
+- 增加 `.nojekyll`，按纯静态页发布，避免 Jekyll 改写
+- 补全 charset / viewport / 移动端可读样式
